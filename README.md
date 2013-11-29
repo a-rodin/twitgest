@@ -5,7 +5,7 @@ It is an node.js application that allows you to see the interesting tweets from 
 
 To run it you should install node > 0.10, mongodb > 2.3 and execute
 
-    git clone https://github.com/therussianphysicist/twitgest.git
+    git clone https://github.com/therussianphysicist/twitgest
     cd twitgest
     npm install
     npm start
