@@ -1,7 +1,7 @@
 twitgest
 ========
 
-It is an node.js application that allows you to see only most interesting tweets from your subscriptions.
+It is an node.js application that allows you to see the interesting tweets from your subscriptions.
 
 To run it you should install node > 0.10, mongodb > 2.3 and execute
 
