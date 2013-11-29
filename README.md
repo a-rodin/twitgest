@@ -1,11 +1,11 @@
 twitgest
 ========
 
-It is an node.js application that allows you to see the interesting tweets from your subscriptions.
+It is a node.js application that allows you to see interesting tweets from your subscriptions.
 
-To run it you should install node > 0.10, mongodb > 2.3 and execute
+Before running it you have to create an application at your twitter page, create consumer key and consumer secret, and set `CONSUMER_KEY` and `CONSUMER_SECRET` constants at `twitgest.js`. Also node > 0.10 and mongodb > 2.3 should be installed on your machine. Then you could execute the application by running
 
-    git clone https://github.com/therussianphysicist/twitgest
+    git clone https://github.com/a-rodin/twitgest
     cd twitgest
     npm install
     npm start
