@@ -1,0 +1,32 @@
+extends layout
+
+block scripts
+  script(src = '/js/best.js')
+block content
+  .navbar.navbar-inverse(role = 'navigation')
+    .navbar-header
+      a.navbar-brand(href='/') Twitgest
+    .collapse.navbar-collapse.navbar-right
+      ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle(data-toggle='dropdown', href='#')
+            img.nav-avatar(src = avatar)
+            |#{screen_name} 
+            b.caret
+          ul.dropdown-menu
+            li
+              a(href='/logout') Logout
+  .tweets
+    .loading Loading...
+  .tpl(style='display: none')
+    .tweet
+      a.avatar(target='_blank')
+        img.inline(src = avatar)
+      .user
+        a.name(target='_blank')
+        a.screen_name(target='_blank')
+        a.created_at.pull-right(target='_blank')
+      .content
+        .text
+        .full-container
+            a.full(target='_blank') View full tweet

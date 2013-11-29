@@ -1,0 +1,129 @@
+.nav-avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.navbar-brand {
+    color: #ffffff !important;
+    font-size: 15pt;
+    font-weight: bold;
+}
+body {
+    background-color: #bee;
+}
+.tweets {
+    border: 1px solid #bbb;
+    margin: auto auto;
+    background: #fff;
+    border-radius: 6px;
+    margin-top: -10px;
+}
+.dropdown-menu {
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+.inline {
+    display: inline-block;
+}
+.tweet {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;a
+    background: #fff !important;
+}
+@media(min-device-width: 620px) {
+    .tweets {
+        width: 600px;
+    }
+}
+
+.tweet .avatar {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.tweet .name {
+    font-weight: bold;
+    display: inline;
+    color: #000;
+    vertical-align: middle;
+}
+
+.tweet .screen_name {
+    font-size: 0.85em;
+    color: #666;
+    margin-left: 5px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.tweet .text {
+    display: block;
+}
+
+.tweet .row {
+    margin-left: 48px;
+}
+
+.tweet  .content {
+    margin-left: 56px;
+}
+
+.tweet .user {
+    margin-left: 56px;
+}
+
+.created_at {
+    color: #666 !important;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.loading {
+    padding: 10px;
+    text-align: center;
+}
+
+.tweet .full {
+    font-size: 0.8em;
+}
+
+.tweet .full-container {
+    text-align: right;
+    margin-top: -2px;
+    margin-bottom: -3px;
+    padding: 0;
+}
+
+.main-block {
+    width: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.main-block .btn {
+    margin-top: 10px;
+}
+
+.main-container {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
